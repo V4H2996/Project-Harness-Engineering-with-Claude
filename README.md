@@ -6,7 +6,6 @@ This workspace contains exercises that use two different Python versions. Choose
 
 | Exercise folder | Python environment | Activation required? |
 |---|---|---|
-| `py3.10-exercises/cd14715-claude-code-classroom/` | System Python 3.10 | No |
 | `py3.13-exercises-and-project/` | Python 3.13 virtual environment | Yes |
 
 | Task | Command |
@@ -23,17 +22,6 @@ This workspace contains exercises that use two different Python versions. Choose
 - The workspace files available locally.
 - The Python 3.13 environment at `/voc/data/py313-venv` for Python 3.13 exercises.
 
-## Python 3.10 exercises
-
-The default system Python is Python 3.10. No virtual environment activation is needed for this exercise folder.
-
-```bash
-python --version  # Should show Python 3.10.x
-cd py3.10-exercises/cd14715-claude-code-classroom/
-python your_script.py
-```
-
-The system environment includes data science and machine-learning packages. See [`py3.10-exercises/requirements.txt`](py3.10-exercises/requirements.txt) for the package list. Packages include TensorFlow, PyTorch, pandas, NumPy, scikit-learn, Jupyter, and others.
 
 ## Python 3.13 exercises and project
 
@@ -58,8 +46,6 @@ deactivate
 ```
 
 The Python 3.13 environment includes modern development tools and packages such as the Anthropic SDK, Pydantic, pytest, mypy, Ruff, and uv. See [`py3.13-exercises-and-project/requirements.py313-venv.txt`](py3.13-exercises-and-project/requirements.py313-venv.txt) for the package list.
-
-### What's in the Python 3.13 folder?
 
 - **Exercises:** Tutorials on building AI systems with Claude, including claims intake, retail support context management, Claude Code configuration, and quality monitoring.
 - **Capstone project:** An integrative project to build and run the four course systems, verify their implementations, capture artifacts, and write an evidence-based reflection brief.
