@@ -1,0 +1,17 @@
+{
+  "tier": "hot",
+  "last_updated": "2026-04-29T12:05:28Z",
+  "total_defects": 40,
+  "defects_since_april_1": 17,
+  "by_severity": {
+    "critical": 5,
+    "high": 8,
+    "medium": 12,
+    "low": 15
+  },
+  "recent_defects": [
+    "DEF-20260429-001",
+    "DEF-20260427-001",
+    "DEF-20260425-001"
+  ]
+}

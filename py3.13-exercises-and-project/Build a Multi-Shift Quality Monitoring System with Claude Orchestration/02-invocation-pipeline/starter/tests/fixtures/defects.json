@@ -1,0 +1,66 @@
+[
+  {
+    "id": "d-2026-04-30-001",
+    "ts": "2026-04-30T02:15:00Z",
+    "shift": "C",
+    "component": "coolant-loop",
+    "severity": "medium",
+    "description": "Coolant pressure drop on loop B, sector 4."
+  },
+  {
+    "id": "d-2026-04-30-002",
+    "ts": "2026-04-30T03:02:00Z",
+    "shift": "C",
+    "component": "capacitor-bank-C-7",
+    "severity": "high",
+    "description": "Capacitor bank C-7 showing elevated ripple current."
+  },
+  {
+    "id": "d-2026-04-30-003",
+    "ts": "2026-04-30T04:10:00Z",
+    "shift": "C",
+    "component": "pump-seal-A",
+    "severity": "low",
+    "description": "Minor seal weep on pump A-3, no immediate action."
+  },
+  {
+    "id": "d-2026-04-30-004",
+    "ts": "2026-04-30T05:45:00Z",
+    "shift": "C",
+    "component": "coolant-loop",
+    "severity": "medium",
+    "description": "Coolant pH trending low on loop A."
+  },
+  {
+    "id": "d-2026-04-30-005",
+    "ts": "2026-04-30T06:30:00Z",
+    "shift": "C",
+    "component": "capacitor-bank-C-7",
+    "severity": "high",
+    "description": "Thermal imaging shows hot spot on C-7 bus bar."
+  },
+  {
+    "id": "d-2026-04-30-006",
+    "ts": "2026-04-30T07:15:00Z",
+    "shift": "C",
+    "component": "vfd-drive-2",
+    "severity": "low",
+    "description": "VFD drive 2 fan noise increased, bearing check due."
+  },
+  {
+    "id": "d-2026-04-30-007",
+    "ts": "2026-04-30T08:00:00Z",
+    "shift": "A",
+    "component": "coolant-loop",
+    "severity": "medium",
+    "description": "Coolant level alarm on loop C, topped off."
+  },
+  {
+    "id": "d-2026-04-30-008",
+    "ts": "2026-04-30T08:45:00Z",
+    "shift": "A",
+    "component": "transformer-T1",
+    "severity": "high",
+    "description": "Transformer T1 oil temperature approaching limit."
+  }
+]
