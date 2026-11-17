@@ -1,0 +1,30 @@
+
+============================================================
+  CONTEXT STRATEGY SYSTEM TEST SUITE
+============================================================
+  Folder: 04-assemble-and-locate/starter
+  Run:    runs/20261115-044837/budget.json
+  Tokens: baseline 47144 -> assembled 20392 (reduction 56.75%)
+============================================================
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.14, pytest-9.2.0, pluggy-1.7.0 -- /usr/bin/python
+cachedir: .pytest_cache
+rootdir: /voc/work/py3.13-exercises-and-project/Engineer a Long-Conversation Context Strategy for a Retail Support Copilot/04-assemble-and-locate/starter
+configfile: pyproject.toml
+plugins: anyio-4.10.0, langsmith-0.4.27, typeguard-4.3.0, Faker-25.2.0
+collecting ... collected 11 items
+
+tests/test_context_budget.py::TestContextBudgetNumbers::test_baseline_tokens_matches_budget PASSED [  9%]
+tests/test_context_budget.py::TestContextBudgetNumbers::test_assembled_tokens_matches_budget PASSED [ 18%]
+tests/test_context_budget.py::TestContextBudgetNumbers::test_reduction_pct_matches_budget PASSED [ 27%]
+tests/test_context_budget.py::TestContextBudgetNumbers::test_reduction_is_over_50_percent PASSED [ 36%]
+tests/test_context_budget.py::TestContextBudgetNumbers::test_token_savings_exceeds_25000 PASSED [ 45%]
+tests/test_context_budget.py::TestPerSectionTokens::test_active_section_dominates PASSED [ 54%]
+tests/test_context_budget.py::TestPerSectionTokens::test_case_facts_is_small PASSED [ 63%]
+tests/test_context_budget.py::TestPerSectionTokens::test_resolved_sections_are_compressed PASSED [ 72%]
+tests/test_context_budget.py::TestPerSectionTokens::test_section_counts_sum_to_assembled PASSED [ 81%]
+tests/test_context_budget.py::TestActiveSectionVerbatim::test_active_section_needs_byte_exact PASSED [ 90%]
+tests/test_context_budget.py::TestActiveSectionVerbatim::test_compressed_sections_are_summarized PASSED [100%]
+
+============================== 11 passed in 0.25s ==============================
